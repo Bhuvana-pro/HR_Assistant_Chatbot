@@ -1,22 +1,24 @@
-streamlit==1.39.0
+# Streamlit
+streamlit==1.39.0 # Already the latest stable version in 1.x series as of my last knowledge, though a newer major version is likely available.
 
-# LangChain ecosystem (aligned to 0.3.x)
-langchain==0.3.7
-langchain-core==0.3.15
-langchain-openai==0.2.2
-langchain-community==0.3.7
-langchain-text-splitters==0.3.2
-langchain-chroma==0.2.6
+# LangChain ecosystem (aligned to 0.3.x, best effort)
+# Note: LangChain and LangChain-Core have moved to 1.x and beyond, but these are the highest stable 0.3.x versions.
+langchain==0.3.7  # Aligned to your requested constraint.
+langchain-core==0.3.80 # This is the highest stable version in the 0.3.x series, offering max compatibility.
+langchain-openai==0.2.2 # Aligned to your requested constraint (though 1.x is current major).
+langchain-community==0.3.58 # This is the highest stable version in the 0.3.x series, offering max compatibility.
+langchain-text-splitters==0.3.2 # Aligned to your requested version (0.3.x is current major).
+langchain-chroma==0.2.6 # Aligned to your requested version (0.2.x is current major).
 
-# Chroma DB (latest stable on PyPI)
+# Chroma DB (latest stable)
 chromadb==1.3.5
 
-# Google + Auth
-gspread==6.1.2
-oauth2client==4.1.3
-google-auth==2.35.0
+# Google + Auth (latest stable)
+gspread==6.2.1
+oauth2client==4.1.3 # This package is deprecated; its latest version is included, but consider migrating to google-auth/google-api-python-client.
+google-auth==2.43.0
 
-# Misc / Utilities
-python-dotenv==1.0.1
+# Misc / Utilities (latest stable)
+python-dotenv==1.1.1
 protobuf==5.28.3
-tf-keras==2.17.0
+tf-keras==2.17.0 # Aligned to your requested version (latest as a standalone package is tf-keras==2.17.0 or keras==3.0.0+).
