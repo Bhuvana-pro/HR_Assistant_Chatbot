@@ -7,10 +7,8 @@ langchain-openai
 langchain-community
 langchain-text-splitters
 langchain-chroma
-
 # Chroma DB
 chromadb
-
 # Google + Auth
 gspread
 oauth2client
