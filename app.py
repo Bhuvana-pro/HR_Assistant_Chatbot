@@ -2,9 +2,9 @@ import streamlit as st
 import gspread
 from google.oauth2.service_account import Credentials
 
-# ✅ Correct imports for LangChain 0.3.x+
+# Correct imports for LangChain 0.3.x+
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
-from langchain.chains import RetrievalQA
+from langchain.chains.retrieval import RetrievalQA
 from langchain_text_splitters import CharacterTextSplitter
 from langchain_chroma import Chroma
 
